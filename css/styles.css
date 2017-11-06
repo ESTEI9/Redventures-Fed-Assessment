@@ -78,6 +78,7 @@ header {
 
 #pre-header ul {
     margin-bottom:0;
+    padding-left:0;
 }
 
 #pre-header li {
@@ -86,7 +87,7 @@ header {
 }
 
 #pre-header li:last-child {
-    margin-right:1em;
+    margin-right:0;
 }
 
 #pre-header img {
