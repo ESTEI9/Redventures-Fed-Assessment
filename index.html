@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Pool Pros Supplies & Services">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="fonts/ss-pika/webfonts/ss-pika.css">
+    </head>
+    <body>
+        <header>
+            <div id="pre-header" class="bg-dk-blue hidden-xs hidden-sm">
+                <div class="carrier">
+                    <div class="row">
+                        <nav class="col-lg-12 text-right">
+                            <ul>
+                                <li><a href="#">Dealers and Distributors</a></li>
+                                <li><a href="#">Commercial Service <img src="RV Pool Pro Dev Test Assets/action-commercial-icon.png" alt="->" /></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div><!-- /#pre-header -->
+            
+            <div id="header">
+                <div class="carrier">
+                    <div class="row">
+                        <div class="col-xs-4 col-md-2">
+                            <a href="/"><img id="header-logo" src="RV Pool Pro Dev Test Assets/pool-pros-logo.png" alt="Pool Pros" /></a>
+                        </div>
+                        <div class="col-xs-8 col-md-10">
+                            <nav>
+                                <div class="col-xs-12 col-md-9">
+                                    <nav id="menu" class="pull-right hidden-xs hidden-sm">
+                                        <ul>
+                                            <li><a href="#">Pools & Spas</a></li>
+                                            <li><a href="#">Supplies</a></li>
+                                            <li><a href="#">Resources</a></li>
+                                            <li><a href="#">Services</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="col-xs-9 col-md-3 text-right" id="find-a-pool-pro">
+                                    <div>
+                                        <a href="#"><img src="RV Pool Pro Dev Test Assets/location-icon.png" alt=""><span class="hidden-xs hidden-sm">Find a Pool Pro</span><span class="hidden-md hidden-lg">Find a Pro</span></a>
+                                    </div>
+                                </div>
+                                <div class="col-xs-3 hidden-md hidden-lg">
+                                    <div id="menu-toggle"><img src="RV Pool Pro Dev Test Assets/menu-icon-mobile.png" alt="menu" /></div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- /#header -->
+        </header>
+        <div id="mobile-menu">
+            <div>
+                <span class="close ss-delete"></span>
+                <h3>MENU</h3>
+            </div>
+            <ul>
+                <li><a href="#">Pools & Spas</a></li>
+                <li><a href="#">Supplies</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+        </div>
+        <main id="stage">
+            <div id="background"></div>
+            <div id="content" class="carrier">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div id="search-bar" class="text-center">
+                            <div id="result-count">
+                                <span>7 dealers in 28226</span>
+                            </div>
+                            <div id="filter-toggle">
+                                <label>Filter Results</label><a href="#" class="dropdown ss-directup"></a>
+                            </div>
+                            <div id="filter">
+                                <ul>
+                                    <li><div class="input-container checked"><input type="checkbox" id="service" name="certification" value="Service Pro" checked><label for="service">Service</label></div></li>
+                                    <li><div class="input-container checked"><input type="checkbox" id="installation" name="certification" value="Installation Pro" checked><label for="installation">Installation</label></div></li>
+                                    <li><div class="input-container checked"><input type="checkbox" id="residential" name="certification" value="Residential Pro" checked><label for="residential">Residential</label></div></li>
+                                    <li><div class="input-container"><input type="checkbox" id="commercial" name="certification" value="Commercial Pro"><label for="commercial">Commercial</label></div></li>
+                                    <li id="tooltip"><img src="RV Pool Pro Dev Test Assets/tool-tip-icon-filtering.png"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>        
+                </div>
+                <div class="row">
+                    <div id="results"></div>
+                </div>
+            </div>
+        </main>
+        <div id="modal">
+            <div id="modal-toggle"></div>
+            <div id="modal-box">
+                <div id="modal-header" class="bg-dk-blue">
+                    <span class="close ss-delete hidden-xs"></span>
+                    <span id="modal-type">EMAIL</span>
+                    <h2 class="modal-title"></h2>
+                </div>
+                <div id="modal-body">
+                    Fill out the form below and <span class="modal-title"></span> will get in touch.
+                    <form method="post">
+                        <label data-validate="true">First and Last Name</label>
+                            <input name="name" type="text" id="email-name" required value="Jane Smith">
+                        <label data-validate="false">Phone Number</label>
+                            <input name="phone" type="tel" id="email-phone" required>
+                        <label data-validate="false">Email Address</label>
+                            <input type="email" name="email-address" id="email-email-address" required>
+                        <label>Comments or Questions</label>
+                        <textarea name="comments" id="email-comments"></textarea>
+                        <label>Do you currently own a pool or spa?</label>
+                            <div class="input-container checked"><input type="radio" name="own-pool" id="pool-yes" value="Yes" checked><label for="pool-yes" class="hidden-md hidden-lg">Yes</label></div>
+                            <div class="input-container"><input type="radio" name="own-pool" id="pool-no" value="No"><label for="pool-no" class="hidden-md hidden-lg">No</label></div>
+                        <hr>
+                        <button type="submit">Send<span class="hidden-xs hidden-sm"> my email</span></button>
+                    </form>
+                    <div id="email-disclosure">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="bg-dk-blue carrier-fluid">
+            <img id="footer-logo" src="RV Pool Pro Dev Test Assets/pool-pros-logo-footer.png" alt="Pool Pros" />
+            <div id="social-media">
+                CONNECT WITH US 
+                <a href="#"><img src="RV Pool Pro Dev Test Assets/twitter-icon.png" alt="Twitter"/></a>
+                <a href="#"><img src="RV Pool Pro Dev Test Assets/facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="RV Pool Pro Dev Test Assets/youtube-icon.png" alt="YouTube"></a>
+            </div>
+            <div id="post-footer" class="bg-lt-blue">
+                <div class="hidden-md hidden-lg">
+                    <a href="#">Dealers and Distributors</a>|<a href="#">Commercial Service <img src="RV Pool Pro Dev Test Assets/action-commercial-icon.png" alt="->" /></a>
+                    <hr>
+                </div>
+                <div id="copyright">&copy; 2017 Pool Pros</div>|<a href="#">Privacy Policy</a>|<a href="#">Terms and Conditions</a>
+            </div>
+            
+            <!-- SCRIPTS -->
+            <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+            <script src="scripts/scripts.js"></script>
+        </footer>
+    </body>
+</html>
