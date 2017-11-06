@@ -1,18 +1,18 @@
-#Overview for RedVentures FED Assessment
+# Overview for RedVentures FED Assessment
 
-###Summary
+### Summary
 
 This project was made to test my skills in Front-End Development for Redventures in Charlotte, NC.
 
-###Technical Concepts Covered
+### Technical Concepts Covered
 
-*HTML
-*CSS
-*Bootstrap
-*Javascript
-*jQuery
+* HTML
+* CSS
+* Bootstrap
+* Javascript
+* jQuery
 
-###Notes
+### Notes
 
 This project was actually quite difficult in comparison to the Ally Assessment. 
 There were major differences between the mobile and desktop versions with some odd semantic changes. These differences were sometimes noticible and other times less.
