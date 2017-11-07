@@ -718,6 +718,10 @@ footer {
         border-radius:0;
     }
     
+    #certifications li {
+        font-size:0.9em;
+    }
+    
     #modal #modal-box {
         margin:0 2em;
     }
